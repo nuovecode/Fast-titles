@@ -6,12 +6,12 @@
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
      <script src="view/frontend/js/validator.min.js"></script>
      <meta name="viewport" content="width=device-width, initial-scale=1">
-     <title>Easy titles - il gatto ha nuove code</title>
+     <title>Fast titles - il gatto ha nuove code</title>
  </head>
  <body>
    <div class="container">
 
-       <h2>Easy titles <br><small>A simple importer for final cut</small></h2>
+       <h2>Fast titles <br><small>A simple importer for final cut</small></h2>
        <br><br>
 
        <form method="POST" data-toggle="validator" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
@@ -43,8 +43,8 @@
 
        <br><br>
        <pre>
-           Demo online: <a href="http://www.ilgattohanuovecode.it/tool/final-cut-subtitles/">Il gatto ha nuove code</a>
-           Github: <a href="https://bitbucket.org/bellissimi/final-cut-subtitles/overview">Easy subtitles</a>
+           Demo online: <a href="http://www.ilgattohanuovecode.it/tool/final-cut-fast-titles/">Il gatto ha nuove code</a>
+           Github: <a href="https://bitbucket.org/nuovecode/fast-titles">Final cut fast titles</a>
        </pre>
    </div>
   </body>
