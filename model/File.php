@@ -287,7 +287,7 @@ class ModelFile {
 
 
                 $sequence = $media->addChild("sequence");
-                $sequence->addAttribute('duration', "19800/2500s");
+                $sequence->addAttribute('duration', "3s");
                 $sequence->addAttribute('format', "r2");
                 $sequence->addAttribute('tcStart', "0s");
 
@@ -297,7 +297,7 @@ class ModelFile {
                 $title->addAttribute('name', "Basic Title:" . " " . $value);
                 $title->addAttribute('offset', "0s");
                 $title->addAttribute('ref', "r3");
-                $title->addAttribute('duration', "19800/2500s");
+                $title->addAttribute('duration', "3s");
                 $title->addAttribute('start', "3600s");
 
                 $param = $title->addChild("param");
