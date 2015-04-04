@@ -1,7 +1,7 @@
 # FAST TITLES #
 @nuovecode
 
-Import your subtitles for Final Cut ProX and Final Cut Pro 7 via XML
+Save your time. Import subtitles for Final Cut ProX and Final Cut Pro 7 via XML
 
 
 ![Schermata 2015-04-04 alle 16.56.38.png](https://bitbucket.org/repo/xy8Epb/images/198376724-Schermata%202015-04-04%20alle%2016.56.38.png)
