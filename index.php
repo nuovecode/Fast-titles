@@ -1,6 +1,6 @@
 <?php
 /*
-Item Name : Fast titles
+Item Name : Easy titles
 Item URI : http://www.ilgattohanuovecode.it
 Author URI : Irene Iaccio (@nuovecode)
 Version : 0.1
