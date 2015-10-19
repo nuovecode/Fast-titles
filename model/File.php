@@ -347,8 +347,8 @@ class ModelFile {
                     //R2-R3
                     $format = $resources->addChild("format");
                     $format->addAttribute('id', "r2");
-                    $format->addAttribute('name', "FFVideoFormat720p25");
-                    $format->addAttribute('frameDuration', "100/2500s");
+                    $format->addAttribute('name', "FFVideoFormat720p60");
+                    $format->addAttribute('frameDuration', "100/6000s");
                     $format->addAttribute('width', "1280");
                     $format->addAttribute('height', "720");
 
