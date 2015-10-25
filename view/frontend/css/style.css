@@ -1,18 +1,39 @@
 * {
   font-family: "Open Sans", Helvetica, sans-serif;
 }
-a {
- color: #1490a7;
-}
+a {color: #1490a7;}
 
 ul {margin: 0; padding: 0}
 ul>li {list-style: none;}
+
+img {max-width: 100%;}
+
+.new {
+    position: absolute;
+    background: orange;
+    color: #fff;
+    padding: 0 5px;
+    text-transform: uppercase;
+    right: 0px;
+    font-size: 12px;
+}
+
+.form-group label{
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #253240;
+}
+
+
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary {
 	background: #1490a7;
 	border: 1px solid #1490a7;
 	width: 100%;
+    text-transform: uppercase;
+    margin-top: 25px;
 }
 .btn-primary:hover {
 	background: #253240;
@@ -23,6 +44,37 @@ ul>li {list-style: none;}
 	background: #1490a7;
 	border: 1px solid #1490a7;
 }
+.gap {
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+    position: relative;
+}
+.version {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+.mode {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+select#version {
+    margin-top: 10px;
+    width: 100%;
+    display: inline-block;
+    font-weight: normal;
+}
+
+.gap .gap-info img {
+    border-radius: 5px;
+    border: 1px solid;
+}
+.gap label {margin: 0;}
+.gap .info {padding: 0 0 5px 20px !important;}
+
+.gap.disabled label, .gap.disabled .info { color: #afaeae;}
+.gap.disabled img {opacity: 0.5;}
+.gap.disabled .new {display: none;}
+
 iframe {
 	max-width: 100%;
 }
@@ -50,7 +102,6 @@ font-family: 'Roboto Slab', serif;
 	background: #253240;
 	color: #fff;
 }
-
 .top-bar {
 	background: #253240;
 	color: #fff;
@@ -118,24 +169,20 @@ font-family: 'Roboto Slab', serif;
 
 .main .info {
   display: block;
-  color: #1490a7;
-  font-size: 11px;
-  margin: 10px 0;
+  color: #7c7c7c;
+  font-size: 12px;
   padding-left: 20px;
-	
+  padding-top: 5px;
 }
 
-.main form select{
-	margin-bottom: 20px;
-}
 .has-error .form-control {border-color: #fb6b61;}
 .has-error .help-block {
   color: #fff;
   background: #fb6b61;
-  border-radius: 5px;
   float: left;
-  padding: 0 10px;}
-.main .mode {margin: 20px 0;}
+  padding: 0 10px;
+}
+
 
 #istruzioni { padding: 30px 0 20px;	} 
 #istruzioni span {

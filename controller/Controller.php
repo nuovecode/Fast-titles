@@ -7,29 +7,28 @@ Version : 0.1
 */
 
 include_once __SITE_PATH . '/model/'. 'Data.php';
-include_once __SITE_PATH . '/model/'. 'File.php';
+include_once __SITE_PATH . '/model/'. 'FinalCutPro7.php';
+include_once __SITE_PATH . '/model/'. 'FinalCutProX.php';
 
 class Controller {
 
-    public $modelFile;
+    public $modelfcp7;
+    public $modelfcpx;
     public $modelData;
-
 
     public function __construct()  {
 
-        $this->modelData = new ModelData();
-        $this->modelFile = new ModelFile();
+        $this->modelData  = new  ModelData();
+        $this->modelfcp7  = new  FinalCutPro7();
+        $this->modelfcpx  = new  FinalCutProX();
     }
 
-
-    // Chiama il Frontend
     public function invoke() {
 
         include __SITE_PATH . '/view/'. 'subtitles.php';
     }
 
 
-    //Gestisce il form
     public function fcp()  {
 
         if(isset($_POST['submit'])){
@@ -42,15 +41,13 @@ class Controller {
                 $subtitles = $this->modelData->manual_subtitles($input);
             }
 
-            if ($_POST['version'] == "1") {
-                $this->modelFile->fcp7_xml($subtitles);
+            if ($_POST['version'] == "7") {
+                $this->modelfcp7->createFile($subtitles);
             } else {
-                $this->modelFile->fcpx_xml($subtitles);
+                $this->modelfcpx->createFile($subtitles);
             }
         }
     }
-
-
 
 }
 

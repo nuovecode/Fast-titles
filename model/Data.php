@@ -47,7 +47,6 @@ class ModelData {
         $data = wordwrap($data, $numberOfChars, "<br />" , true);
 
         return preg_split('/<br[^>]*>/i', $data);
-
     }
 
 }
