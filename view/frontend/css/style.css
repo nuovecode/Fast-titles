@@ -209,6 +209,7 @@ font-family: 'Roboto Slab', serif;
 #social a {
 	color: #000;
 	padding: 3px 0;
+	text-decoration: underline;
 }
 #social .fa {
 	font-size: 20px;
@@ -219,12 +220,13 @@ font-family: 'Roboto Slab', serif;
 #social .get-t .inner{
   text-align: center;
   background: #f4f5f5;
-  padding: 15px 20px 40px 20px;
+  padding: 25px 20px 70px 20px;
 }
 #social .get-t .fa {
 	font-size: 35px;
 	padding-bottom: 20px;
 }
+#social .get-t a {text-decoration: none;}
 #social .get-t .btn {
   background: #1490a7;
   border: 1px solid #1490a7;	
@@ -237,8 +239,9 @@ font-family: 'Roboto Slab', serif;
 #social .get-t .btn a:hover {text-decoration: none;}
 
 .fb-like-box {
-    padding-top: 25px;	
+    padding-top: 30px;	
 }
+
 .footer {
   background: #1490a7;
   color: #fff;
@@ -253,3 +256,27 @@ font-family: 'Roboto Slab', serif;
 .social-likes  {padding: 20px 0 0 0 !important;}
 .social-likes__widget {margin: 4px !important}
 .social-likes__widget:hover span {color: #fff !important;}
+
+#thanks {
+    background: #f4f5f5;
+    padding: 15px 0;
+}
+#thanks  .col {
+    border-right: 1px solid #253240;
+    padding: 25px 15px;
+}
+#thanks  .col:first-child {text-align: center}
+#thanks  .col:last-child {border: none;}
+#thanks h1 {
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+}
+#thanks h5 {
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+#thanks p {
+    font-size: 11px;
+}

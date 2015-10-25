@@ -1,9 +1,9 @@
 <!--istruzioni-->
 <div id="istruzioni"> 
    <div class="container">
-      <div class="col-md-4 i1"><p><span>1</span><?php echo utf8_decode('Incolla il testo da suddividere in titoli') ?></p></div>
-      <div class="col-md-4 i2"><p><span>2</span><?php echo utf8_decode('Seleziona la tua versione di Final Cut') ?></p></div>
-      <div class="col-md-4 i3"><p><span>3</span><?php echo utf8_decode('Scarica un file xml che contiene tutti i sottotitoli già separati in clip nel browser') ?></p></div>
+      <div class="col-md-4 i1"><p><span>1</span><?php echo utf8_decode('Paste the text to be split in subtitles') ?></p></div>
+      <div class="col-md-4 i2"><p><span>2</span><?php echo utf8_decode('Select your version of Final Cut') ?></p></div>
+      <div class="col-md-4 i3"><p><span>3</span><?php echo utf8_decode('Download an xml file containing all the subtitles already separated in clips in the browser') ?></p></div>
       <div class="clearfix"></div>
    </div>
 </div>
@@ -14,12 +14,12 @@
   <div class="modal-dialog">
     <div class="modal-content">     
       <div class="modal-body">
-        <strong><?php echo utf8_decode('Automatico:') ?></strong><br>
-         <p><?php echo utf8_decode('Ogni sottotitolo sarà di massimo 50 battute. Inoltre ogni \'a capo\' del testo originale determina un nuovo sottotitolo') ?></p>
-         <strong><?php echo utf8_decode('Manuale:') ?></strong><br>
-         <p><?php echo utf8_decode('Decidi tu quanto testo inserire in ogni sottotitolo. Dopo aver incollato il testo all\'interno del form, premi \'invio\' per andare a capo: ad ogni riga corrisponderà una clip differente.') ?> <br> <small><?php echo utf8_decode('(I sottotitoli sono determinati solo dagli \'a capo\': ma non c\'è il limite delle 50 battute. Per cui un testo non \'preparato\' difficilmente produrrà poi un xml utilizzabile)') ?></small></p>
+        <strong><?php echo utf8_decode('Automatic:') ?></strong><br>
+         <p><?php echo utf8_decode('Each subtitle has a limit of 50 characters. Also, every new paragraph of the original text determines a new subtitle.') ?></p>
+         <strong><?php echo utf8_decode('Manual:') ?></strong><br>
+         <p><?php echo utf8_decode('You can customize the length of each subtitle. After pasting the text in the form, press Enter to start a new paragraph: every line will correspond to a different clip.') ?> <br> <small><?php echo utf8_decode('(Subtitles will be determined only by paragraphs: there will be no limit of 50 characters, thus a text not arranged will probably not produce an usable xml)') ?></small></p>
       </div>     
-      <button class="btn" data-dismiss="modal"><?php echo utf8_decode('Chiudi') ?></button>     
+      <button class="btn" data-dismiss="modal"><?php echo utf8_decode('Close') ?></button>     
     </div>
   </div>
 </div>

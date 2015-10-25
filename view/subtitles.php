@@ -44,24 +44,24 @@
        
        <form method="POST" data-toggle="validator" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">         
            <div class="col-md-9 form-group">
-               <textarea class="form-control" name="subtitles" rows="15" placeholder="Incolla i sottotitoli" data-error="Inserisci i titoli!!" required></textarea>
+               <textarea class="form-control" name="subtitles" rows="15" placeholder="Paste the subtitles" data-error="Paste the subtitles" required></textarea>
                <div class="help-block with-errors"></div>      
            </div>
                     
            <div class="form-group col-md-3">
                <select name="version" class="form-control input-sm" required>
-                   <option><?php echo utf8_decode('Seleziona la versione del programma') ?></option>
+                   <option><?php echo utf8_decode('Select your program version') ?></option>
                    <option value="1"><?php echo utf8_decode('Final cut pro 7') ?></option>
                    <option value="2"><?php echo utf8_decode('Final cut pro X') ?></option>
                </select>
                <div class="mode">
                  <label class="radio-inline">
-                     <input type="radio" name="division" value="auto" checked> <?php echo utf8_decode('Automatico') ?>
+                     <input type="radio" name="division" value="auto" checked> <?php echo utf8_decode('Automatic') ?>
                  </label>
                  <label class="radio-inline">
-                     <input type="radio" name="division" value="manual"><?php echo utf8_decode('Manuale') ?>
+                     <input type="radio" name="division" value="manual"><?php echo utf8_decode('Manual') ?>
                  </label> 
-                <a class="info" href="#" data-toggle="modal" data-target="#modeModal" ><?php echo utf8_decode('Che significa? >') ?></a>
+                <a class="info" href="#" data-toggle="modal" data-target="#modeModal" ><?php echo utf8_decode('What does it mean? >') ?></a>
 
                </div>         
                <button class="btn btn-primary" type="submit" name="submit" onClick="_gaq.push(['_trackEvent', Download, 'Click', 'DownloadFileXml']);"><?php echo utf8_decode('Download') ?></button>
