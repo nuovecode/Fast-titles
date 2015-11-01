@@ -67,10 +67,14 @@
             <small>To all those who helped us.</small>
          </div>
         <div class="col-md-3 col">
+
             <h5><a href="http://www.ilgattohanuovecode.it/cv/maurizio_massari.html" target="_blank">Maurizio Massari</a></h5>
             <p>Localization & QA Professional</p>
-            <h5>Kim</h5>
-            <p>He had the first idea!</p>
+            <h5>Feedback and ideas</h5>
+            <p>
+                <strong>Kim</strong> (He had the first idea), <strong>
+                <a href="http://backstager.eu/" target="_blank">Ugo Flandina</a></strong> (He suggested the gap function)
+            </p>
         </div>
         <div class="col-md-5 col">
             <h5><a href="http://ericguichaoua.fr/" target="_blank">Eric Guichaoua</a></h5>

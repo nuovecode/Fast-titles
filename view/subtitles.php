@@ -5,7 +5,7 @@
  </head>
  <body>
 
-   <?php include_once("view/frontend/html/script.php"); ?>
+   <?php include_once("script.php"); ?>
    <?php include_once("view/frontend/html/menu.php"); ?>
 
    <div class="main">
@@ -30,7 +30,7 @@
            <div class="form-group col-md-3">
 
                <div class="version">
-                   <label><?php echo utf8_decode('Select your Final Cut version') ?>
+                   <label><?php echo utf8_decode('Select your software version') ?>
                        <select id="version" name="version" class="form-control input-sm" required>
                            <option value="x"><?php echo utf8_decode('Final cut pro X') ?></option>
                            <option value="7"><?php echo utf8_decode('Final cut pro 7') ?></option>
