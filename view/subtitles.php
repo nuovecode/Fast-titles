@@ -1,12 +1,12 @@
+<?php $modulePath = "../modules/blocks/"?>
 <!DOCTYPE html>
 <html>
  <head>
      <?php include_once("view/frontend/html/head.php"); ?>
  </head>
  <body>
-
-   <?php include_once("script.php"); ?>
-   <?php include_once("view/frontend/html/menu.php"); ?>
+   <?php if(file_exists( $modulePath . "script/fast-titles.php"))  include_once $modulePath . "script/fast-titles.php"; ?>
+   <?php if(file_exists("../modules/menu.php"))  include_once "../modules/menu.php"; ?>
 
    <div class="main">
      <div class="container"> 
@@ -69,10 +69,10 @@
    </div>
    
    <?php include_once("view/frontend/html/istruzioni.php"); ?>
-   <?php include_once("view/frontend/html/help.php"); ?>
+   <?php include_once("view/frontend/html/blocks.php"); ?>
    
    <footer class="footer">
-      <?php include_once("view/frontend/html/footer.php"); ?>
+      <?php if(file_exists("../modules/footer.php"))  include_once "../modules/footer.php"; ?>
    </footer>
 
   </body>
