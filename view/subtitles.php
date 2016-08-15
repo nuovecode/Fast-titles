@@ -1,4 +1,7 @@
 <?php $modulePath = "../modules/blocks/"?>
+<?php $relateRoot = "final-cut-round-trip"?>
+<?php $relateName = "Final cut to Motion"?>
+
 <!DOCTYPE html>
 <html>
  <head>

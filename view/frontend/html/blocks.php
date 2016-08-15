@@ -1,8 +1,5 @@
 <?php $repositoryName = 'Fast-title'?>
 <?php $url = "http://www.ilgattohanuovecode.it/tool/final-cut-fast-titles/"?>
-<?php $relateRoot = "final-cut-round-trip"?>
-<?php $relateName = "Fcp to Motion"?>
-
 
 <div id="help">
    <div class="container">
@@ -10,7 +7,7 @@
            <!-- APP SUMMARY-->
          <p class="title"><?php echo utf8_decode(' What is Fast titles?') ?></p>
          <p><?php echo utf8_decode('Fast titles is a project born from the need of making the insertion of subtitles while video editing faster.') ?> <br><br>
-             <?php echo utf8_decode('It is still a beta version, and we plan to improve it.') ?></p>
+             </p>
            <!-- SHARE BUTTONS ($url)-->
            <?php if(file_exists( $modulePath . "share-buttons.php"))  include_once $modulePath . "share-buttons.php"; ?>
       </div>
