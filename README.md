@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=1vO2Z66tHMw
 
 CONTRIBUTIONS
 -------------
-Test, suggestions and contribution are sincerely appreciated
+Tests, suggestions and contributions are sincerely appreciated :)
 
 RELEASE NOTES
 -------------
