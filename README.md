@@ -12,10 +12,10 @@ About
 ***How does it work:*** [videotutorial in italiano]:
 https://www.youtube.com/watch?v=1vO2Z66tHMw
 
-***About Fast Titles*** 
+***About Fast Titles:*** [blog post]
 http://www.ilgattohanuovecode.it/videotutorial/196-fast-titles-come-importare-sottotitoli-in-final-cut.html
 
-***The add gap function***
+***The add gap function:*** [blog post]
 http://www.ilgattohanuovecode.it/videogiochi-e-tecnologie/203-fast-titles-add-gap.html
 
 Contributions
