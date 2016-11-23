@@ -18,6 +18,9 @@ http://www.ilgattohanuovecode.it/videotutorial/196-fast-titles-come-importare-so
 ***The add gap function:*** [blog post]
 http://www.ilgattohanuovecode.it/videogiochi-e-tecnologie/203-fast-titles-add-gap.html
 
+***See other fcp web tools***
+[Fcp to motion] (https://github.com/nuovecode/Fcp-to-motion)
+
 Contributions
 -------------
 Tests, suggestions and contributions are sincerely appreciated :)
