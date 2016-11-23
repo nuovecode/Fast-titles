@@ -9,9 +9,9 @@ Fast titles is a tool online to import massively subtitles for Final Cut ProX an
 
 About
 -----
-* [How does it work]: (https://www.youtube.com/watch?v=1vO2Z66tHMw) [videotutorial in italiano]:
-* [About Fast Titles]: (http://www.ilgattohanuovecode.it/videotutorial/196-fast-titles-come-importare-sottotitoli-in-final-cut.html) [blog post]
-* [The add gap function]: (http://www.ilgattohanuovecode.it/videogiochi-e-tecnologie/203-fast-titles-add-gap.html) [blog post]
+* [How does it work:](https://www.youtube.com/watch?v=1vO2Z66tHMw) [videotutorial in italiano]:
+* [About Fast Titles:](http://www.ilgattohanuovecode.it/videotutorial/196-fast-titles-come-importare-sottotitoli-in-final-cut.html) [blog post]
+* [The add gap function:](http://www.ilgattohanuovecode.it/videogiochi-e-tecnologie/203-fast-titles-add-gap.html) [blog post]
 
 ***See other fcp web tools***
 [Fcp to motion] (https://github.com/nuovecode/Fcp-to-motion)
