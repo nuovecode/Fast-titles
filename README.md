@@ -5,7 +5,7 @@
 Fast titles is a tool online to import massively subtitles for Final Cut ProX and Final Cut Pro 7 via XML
 
 
-[Demo live](http://www.ilgattohanuovecode.it/tool/final-cut-fast-titles/index.php)
+[Live](http://www.ilgattohanuovecode.it/tool/final-cut-fast-titles/index.php)
 
 About
 -----
