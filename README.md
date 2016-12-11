@@ -13,7 +13,7 @@ About
 * [About Fast Titles:](http://www.ilgattohanuovecode.it/videotutorial/196-fast-titles-come-importare-sottotitoli-in-final-cut.html) [blog post]
 * [The add gap function:](http://www.ilgattohanuovecode.it/videogiochi-e-tecnologie/203-fast-titles-add-gap.html) [blog post]
 
-***See other fcp web tools: ***
+***See other fcp web tools:***
 
 [Fcp to motion] (https://github.com/nuovecode/Fcp-to-motion)
 
