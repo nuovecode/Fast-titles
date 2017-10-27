@@ -15,7 +15,7 @@ About
 
 **See other fcp web tools:**
 
-[Fcp to motion] (https://github.com/nuovecode/Fcp-to-motion)
+[Fcp to motion](https://github.com/nuovecode/Fcp-to-motion)
 
 Contributions
 -------------
