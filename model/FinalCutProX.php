@@ -10,7 +10,7 @@ class FinalCutProX {
 
     public function createFile($array) {
 
-            $xml = new SimpleXMLElement("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><fcpxml version=\"1.4\"></fcpxml>");
+            $xml = new SimpleXMLElement("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><fcpxml version=\"1.5\"></fcpxml>");
 
             $resources = $xml->addChild("resources");
 
